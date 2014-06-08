@@ -1,0 +1,14 @@
+#!/bin/sh
+
+APP=qMetro
+CACHEDIR=~/.cache/$APP/
+DATADIR=~/.local/share/data/$APP
+
+if [ -d $CACHEDIR ]; then
+  echo "$APP> Deleting cache, BUT NOT DATA..."
+  rm -rf $CACHEDIR
+fi
+
+echo "$APP> Data here: $DATADIR"
+
+exit 0

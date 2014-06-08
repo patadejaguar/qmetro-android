@@ -1,0 +1,37 @@
+#!/bin/sh
+
+APP=qMetro
+TMP=/home/user/tmp/$APP
+DATADIR=/home/user/MyDocs/.local/share
+OLDDATADIR=/home/user/MyDocs/Data
+
+gtk-update-icon-cache -f /usr/share/icons/hicolor
+
+#move config from old to new place.
+CONFIGDIR=/home/user/.config/$APP
+NEWCONFIG=$CONFIGDIR/config.conf
+mkdir -p $CONFIGDIR
+chmod -R 777 $CONFIGDIR
+OLDCONFIG=/home/user/$APP.ini
+if [ -f $OLDCONFIG ]; then
+  mv $OLDCONFIG $NEWCONFIG
+fi
+OLDCONFIG=/home/user/MyDocs/Data/$APP/config.ini
+if [ -f $OLDCONFIG ]; then
+  mv $OLDCONFIG $NEWCONFIG
+fi
+
+#move data from old to new place.
+if [ -d $OLDDATADIR/$APP ]; then
+  mkdir -p $DATADIR
+  cp -rf $OLDDATADIR/$APP $DATADIR
+  rm -rf $OLDDATADIR/$APP
+  rmdir $OLDDATADIR
+fi
+
+echo "$APP> Installing data..."
+mkdir -p $DATADIR
+cp -rf $TMP $DATADIR
+rm -rf $TMP
+
+exit 0

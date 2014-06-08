@@ -1,0 +1,75 @@
+Source: qmetro
+Section: user/navigation
+Priority: extra
+Maintainer: Gusak Leonid <guuleon@gmail.com>
+Installed-Size: 1285
+Build-Depends: debhelper (>= 5), libqt4-dev, libqt4-multimedia
+Standards-Version: 3.7.3
+Homepage: http://qmetro.sf.net
+
+Package: qmetro
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Subway maps of the World in your phone!
+ qMetro it's interactive subway map which can help you navigate subways all around the World.
+ That app can view maps, search stations and calculate routes. 
+ .
+ Package already contains 23 maps covering many big cities:
+ Amsterdam, Beijing, Berlin, Brussels, London, Madrid, Mexico, Moscow, New York, Paris, Tokyo and others.
+ About 200 maps available for download. Maps have an open format and can be edited or created.
+ .
+ Additional maps: 
+ qmetro.sf.net/maps/
+ .
+ Its GPL project for creating analog of pMetro (Muradov Boris) and its use PMZ format.
+ Also available for PC: Windows, Linux, Mac, OS/2 -> qmetro.sf.net
+XSBC-Bugtracker: mailto:guuleon@gmail.com
+XSBC-Maemo-Display-Name: qMetro
+XB-Maemo-Icon-26:
+ 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
+ AElFTkSuQmCC

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/audio">
+        <file>xmas.mdz</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=qMetro
+Comment=Map of the transport system
+Comment[ru]=Карта транспотной системы
+Exec=/usr/bin/qmetro
+Icon=qmetro
+Categories=Navigation;Utility;Map;Qt;
+Terminal=false

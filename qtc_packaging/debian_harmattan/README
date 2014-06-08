@@ -1,0 +1,14 @@
+The Debian Package qmetro
+----------------------------
+
+ Vector metro (subway) map for calculating route and getting information.
+ Maps have an open format and can easily be edited or create.
+ About 200 maps of subways are available.
+
+ The package includes only one map of Moscow city subway, but you can easy download
+ your maps from within the app.
+
+ Its GPL project for creating analog of pMetro (Muradov Boris) and its use PMZ format.
+ Also available for PC: Windows, Linux, Mac -> qmetro.sf.net
+
+ -- Gusak Leonid <guuleon@gmail.com>  Thu, 03 Nov 2011 04:09:37 +0400

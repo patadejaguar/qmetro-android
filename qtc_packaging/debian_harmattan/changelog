@@ -1,0 +1,183 @@
+qmetro (0.7.1) unstable; urgency=low
+
+  * !!! HAPPY NEW YEAR !!! 
+  * Add: auto-updater for app & maps. 
+  * Update: "Data" dir is moved to "MyDocs/.local/share"
+  * Update: search routes better. 
+  * Update: nodes respond better. 
+  * Update: some improved UI. 
+  * Fix: many many fixes.
+
+ -- Gusak Leonid <guuleon@gmail.com>  Wed,  1 Jan 2014 00:00:01 +0400
+
+qmetro (0.6.8) unstable; urgency=low
+
+  * Add: new setting, scale of buttons.
+  * Add: swipe for change routes.
+  * Update: mobile ui.
+  * Update: search routes better.
+  * Update: some maps inside.
+  * Update: Qt 5 support+osdab+zlib.
+  * Fix: many minor issues.
+  * Fix: scale of interface.
+  
+ -- Gusak Leonid <guuleon@gmail.com>  Fri,  6 Sep 2013 07:00:00 +0400
+
+qmetro (0.6.5) unstable; urgency=low
+
+  * Add: search for multiple routes.
+  * Add: mobile ui for changing route (try).
+
+ -- Gusak Leonid <guuleon@gmail.com>  Mon, 11 Feb 2013 18:00:00 +0400
+
+qmetro (0.6.1) unstable; urgency=low
+
+  * Fix: search crash.
+  * Fix: pinch.
+  * Fix: shifted touch in settings.
+
+ -- Gusak Leonid <guuleon@gmail.com>  Mon, 28 Jan 2012 20:00:00 +0400
+
+qmetro (0.6.0) unstable; urgency=low
+
+  * Add: skin support.
+  * Update: some graphics, look & feel.
+  * Fix: some bugs.
+
+ -- Gusak Leonid <guuleon@gmail.com>  Mon, 31 Dec 2012 05:00:00 +0400
+
+qmetro (0.5.8) unstable; urgency=low
+
+  * Add: improved QML based ui for harmattan.
+  * Add: default map - Moscow OR capital of country OR first file at map directory.
+  * Add: ziped maps will be unpacked and updated if put them in map dir.
+  * Update: sorting of search results.
+  * Update: last version moscow map inside + 20 maps.
+  * Fix: config installation (chmod 777).
+  * Fix: get info after drag.
+  * Fix: don't croping map when rastering map.
+
+ -- Gusak Leonid <guuleon@gmail.com>  Sat,  8 Sep 2012 21:00:00 +0400
+
+qmetro (0.5.6) unstable; urgency=low
+
+  * Add: pinch zoom.
+  * Add: new icons.
+  * Update: UI with harmattan features (auto rotate, etc).
+  * Update: UI more comfortable.
+  * Update: some improved performance.
+  * Fix: some fixes.
+
+ -- Gusak Leonid <guuleon@gmail.com>  Mon, 23 Apr 2012 21:00:00 +0400
+
+qmetro (0.5.3-1) unstable; urgency=low
+
+  * Update: last version moscow map inside.
+  * Update: full screen mode by default.
+  * Update: recompile with an updated SDK.
+  * Update: some improved performance.
+  * Fix: default start station check.
+  * Fix: fit in view route.
+
+ -- Gusak Leonid <guuleon@gmail.com>  Wed, 16 Feb 2012 23:00:00 +0400
+
+qmetro (0.5.3) unstable; urgency=low
+
+  * Initial Release for MeeGo Harmattan
+
+ -- Gusak Leonid <guuleon@gmail.com>  Thu, 03 Nov 2011 22:00:00 +0400
+
+qmetro (0.5.2-3) unstable; urgency=low
+
+  * Add: Czech localization by Pavel Fric
+
+ -- Gusak Leonid <guuleon@gmail.com>  Wed, 26 Oct 2011 18:00:00 +0400
+
+qmetro (0.5.2-2) unstable; urgency=low
+
+  * Fix: some...
+
+ -- Gusak Leonid <guuleon@gmail.com>  Thu, 20 Oct 2011 21:10:00 +0400
+
+qmetro (0.5.2-1) unstable; urgency=low
+
+  * Fix: package date.
+
+ -- Gusak Leonid <guuleon@gmail.com>  Thu, 20 Oct 2011 21:00:00 +0400
+
+qmetro (0.5.2) unstable; urgency=low
+
+  * Add: default start station.
+  * Add: search by keyboard typing.
+  * Update: improved performance.
+  * Update: better rendring, added more elements.
+  * Update: spanish translate - alpha.
+  * Update: config moved to /home/user/.config/qMetro/config.conf
+  * Fix: ui scale.
+  * Fix: information to nodes from multiple files - more info.
+  * Many other fixes (Special thank to Nikoli)
+
+ -- Gusak Leonid <guuleon@gmail.com>  Thu, 20 Oct 2011 09:00:00 +0400
+
+qmetro (0.5.1-1) unstable; urgency=low
+
+  * Update: last version moscow map inside.
+  * Update: pkzip unpacker.
+  * Fixed: rendering captions of nodes.
+  * Fixed: translating about.
+  * Fixed: nodes under construction.
+
+ -- Gusak Leonid <guuleon@gmail.com>  Thu, 15 Sep 2011 21:05:00 +0400
+
+qmetro (0.5.1) unstable; urgency=low
+
+  * Better perfomance with cached map, but look blurry.
+  * Better fit in view result.
+  * Maemo StackedWindow.
+  * Styles for UI added to config file.
+  * Fixed: map translit & some translate.
+  * Fixed: save map to file.
+  * Package fixed: prerm script, not delete qMetro data files.
+  * And some else fixes.
+
+ -- Gusak Leonid <guuleon@gmail.com>  Thu, 15 Sep 2011 21:05:00 +0400
+
+qmetro (0.5.0-3) unstable; urgency=low
+
+  * Damn, package!
+
+ -- Gusak Leonid <guuleon@gmail.com>  Mon,  5 Sep 2011 19:10:00 +0400
+
+qmetro (0.5.0-2) unstable; urgency=low
+
+  * Fix again...
+
+ -- Gusak Leonid <guuleon@gmail.com>  Mon,  5 Sep 2011 19:09:00 +0400
+
+qmetro (0.5.0-1) unstable; urgency=low
+
+  * Fix package.
+
+ -- Gusak Leonid <guuleon@gmail.com>  Mon,  5 Sep 2011 19:08:00 +0400
+
+qmetro (0.5.0) unstable; urgency=low
+
+  * Mobile user interface.
+  * New Settings for UI.
+  * Search and route with fit in view result.
+  * Auto unpack and remove ZIPed maps.
+
+ -- Gusak Leonid <guuleon@gmail.com>  Mon,  5 Sep 2011 19:07:00 +0400
+
+qmetro (0.4.5) unstable; urgency=low
+
+  * Now support all maps.
+  * Many fixes.
+
+ -- Gusak Leonid <guuleon@gmail.com>  Tue, 10 May 2011 01:41:00 +0400
+
+qmetro (0.4.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Gusak Leonid <guuleon@gmail.com>  Sat,  9 Apr 2011 18:41:00 +0400

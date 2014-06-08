@@ -1,0 +1,12 @@
+#!/bin/sh
+
+APP=qMetro
+TMP=/tmp/$APP
+DATADIR=~/.local/share/data
+
+echo "$APP> Installing data..."
+mkdir -p $DATADIR
+cp -rf $TMP $DATADIR
+rm -rf $TMP
+
+exit 0

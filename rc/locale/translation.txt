@@ -1,0 +1,9 @@
+UPDATE COMMAND:
+lupdate -codecfortr cp1251 -no-sort -pro qmetro.pro -ts qmetro.ts
+
+* WARNING: will be deleted external translations.
+
+RELEASE COMMAND:
+lrelease qmetro.pro
+
+* NOTE: released files (*.qm) need rename (*.lng) and put them to "locale" dir.

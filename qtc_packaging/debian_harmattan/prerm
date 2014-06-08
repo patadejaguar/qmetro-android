@@ -1,0 +1,14 @@
+#!/bin/sh
+
+APP=qMetro
+DATADIR=/home/user/MyDocs/.local/share
+
+echo "$APP> Deleting cache, BUT NOT DATA..."
+if [ -d $DATADIR/$APP/.cache ]; then
+  rm -rf $DATADIR/$APP/.cache/
+fi
+
+rmdir $DATADIR
+rmdir /home/user/MyDocs/.local
+
+exit 0

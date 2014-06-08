@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=qMetro
+Comment=Map of the transport system
+Comment[ru]=Карта транспотной системы
+Exec=/usr/bin/invoker --single-instance --type=d /opt/usr/bin/qmetro
+Icon=/usr/share/icons/hicolor/80x80/apps/qmetro.png
+Categories=Navigation;Utility;Map;Qt;
+Terminal=false
+X-HildonDesk-ShowInToolbar=true
+X-Osso-Type=application/x-executable

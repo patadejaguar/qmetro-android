@@ -1,0 +1,24 @@
+Source: qmetro
+Section: user/navigation
+Priority: extra
+Maintainer: Gusak Leonid <guuleon@gmail.com>
+Build-Depends: debhelper (>= 5), libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1), libqtcore4 (>= 4:4.8.1), libqtgui4 (>= 4:4.8.1), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
+Standards-Version: 3.7.3
+Homepage: http://qmetro.sf.net
+
+Package: qmetro
+Architecture: i386
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Subway maps of the World in your phone!
+ qMetro it's interactive subway map which can help you navigate subways all around the World.
+ That app can view maps, search stations and calculate routes. 
+ .
+ Package already contains 23 maps covering many big cities:
+ Amsterdam, Beijing, Berlin, Brussels, London, Madrid, Mexico, Moscow, New York, Paris, Tokyo and others.
+ About 200 maps available for download. Maps have an open format and can be edited or created.
+ .
+ Additional maps: 
+ qmetro.sf.net/maps/
+ .
+ Its GPL project for creating analog of pMetro (Muradov Boris) and its use PMZ format.
+ Also available for PC: Windows, Linux, Mac, OS/2 and mobile: Maemo, MeeGo, Symbian -> qmetro.sf.net

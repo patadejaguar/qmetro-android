@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>locale/ru.qm</file>
+        <file>img/zoom-out.png</file>
+        <file>img/application-exit.png</file>
+        <file>img/applications-system.png</file>
+        <file>img/dialog-information.png</file>
+        <file>img/document-open.png</file>
+        <file>img/document-save.png</file>
+        <file>img/edit-clear.png</file>
+        <file>img/edit-find.png</file>
+        <file>img/preferences-desktop.png</file>
+        <file>img/preferences-other.png</file>
+        <file>img/preferences-system.png</file>
+        <file>img/preferences-system-windows-actions.png</file>
+        <file>img/system-help.png</file>
+        <file>img/zoom-fit-best.png</file>
+        <file>img/zoom-in.png</file>
+        <file>img/bullet.png</file>
+        <file>img/general_fullsize.png</file>
+        <file>img/donate.png</file>
+        <file alias="qmetro.png">icons/hicolor/80x80/apps/qmetro.png</file>
+        <file>img/button_active.png</file>
+        <file>img/button_inactive.png</file>
+        <file>img/go-next.png</file>
+        <file>img/go-previous.png</file>
+        <file>img/fake64.png</file>
+        <file>translit_ru</file>
+    </qresource>
+</RCC>

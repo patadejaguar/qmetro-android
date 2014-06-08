@@ -1,0 +1,43 @@
+qMetro
+
+Description:
+Subway map for searching stations and calculating routes. About 200 maps of subways are available. Maps have an open format and can easily be edited or created. And you can download maps from within the app.
+
+Additional maps: 
+http://translate.google.com/translate?sl=ru&tl=en&u=http://pmetro.su/Maps.html
+
+Russia: Moscow, St. Petersburg, Novosibirsk, Nizhny Novgorod, Ekaterinburg, Samara, Kazan, Volgograd (Light rail)
+CIS: Kiev, Kharkiv, Dnepropetrovsk, Krivoy Rog (Light rail), Minsk, Tashkent, Tbilisi, Baku, Yerevan
+Austria: Vienna, Linz, Serfaus
+Belgium: Brussels, Antwerp, Charleroi
+United Kingdom:, London, Glasgow, Newcastle, Birmingham, Liverpool, Manchester
+Germany: Berlin, Nuremberg, Wuppertal, Hamburg, Munich, Bielefeld, Bochum, Frankfurt, Stuttgart, Essen, Dusseldorf, Dortmund, Hanover, Bonn-Cologne
+Spain: Madrid, Barcelona, Bilbao, Valencia, Palma de Malorka, Alicante, Sevilla
+Italy: Rome, Naples, Genoa, Milan, Catania, Turin, Perugia
+Netherlands: Amsterdam, Rotterdam, Utrecht, Hague
+Poland: Warsaw, Gdansk, Poznan
+Portugal: Lisbon, Porto
+France: Paris Marseilles, Toulouse, Rouen, Wren, Lyon, Lille, Strasbourg
+Turkey: Istanbul, Ankara, Izmir, Bursa, Adana
+India: Delhi, Calcutta, Chennai, Mumbai
+South Korea: Seoul, Daegu, Pusan, Gwangju, Incheon, Daejeon
+China: Beijing, Hong Kong, Chongqing, Nanking, Shenzhen, Wuhan, Tianjin, Guangzhou, Shanghai, Dalian, Shenyang
+Taiwan: Taipei, Kaohsiung
+Japan: Tokyo, Yokohama, Kobe, Sapporo, Naha, Hiroshima, Kitakyushu, Sendai, Fukuoka, Kyoto, Nagoya, Osaka
+Egypt: Cairo, Alexandria
+Canada: Toronto, Montreal, Vancouver, Edmonton, Calgary, Ottawa
+USA: Washington, New York, Chicago, Atlanta, Miami, Baltimore, Detroit, San Francisco, Cleveland, Buffalo, Jacksonville, Las Vegas, Salt Lake City, St. Louis, Minneapolis - St. Paul, Philadelphia, Los Angeles, Houston, Newark, Boston, Dallas, Denver, San Diego, Sacramento, San Jose, Portland, Pittsburgh, Charlotte, Jersey City
+Mexico: Mexico, Monterrey, Guadalajara
+Venezuela: Caracas, Valencia
+Brazil: Sao Paulo, Belo Horizonte, Rio De Janeiro
+Brasilia: Recife, Porto Alegre
+Chile: Santiago, Valparaiso
+Other: Prague, Sofia, Budapest, Bucharest, Lausanne, Copenhagen, Athens, Haifa, Sydney, Helsinki, Stockholm, Oslo, Pyongyang, Manila, Tehran, Bangkok, Kuala Lumpur, Singapore, Tunisia, Santo Domingo, Buenos Aires, Lima, San Juan, Medellin
+
+
+Requirements:
+- Qt 4.x or later (Core,Gui,Network,Multimedia)
+
+Also used:
+- zlib + OSDaB
+- libmodplug
